@@ -1,0 +1,18 @@
+.item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  p {
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    margin-top: 5px;
+  }
+  div {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 20px;
+  }
+}
